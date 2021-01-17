@@ -32,8 +32,6 @@ android {
 def lifecycleExtentionVersion = '1.1.1'
 def supportVersion = "29.0.0"
 def butterknifeVersion = '10.1.0'
-def retrofitVersion = '2.3.0'
-def glideVersion = '4.9.0'
 def swipeRefreshLayoutVersion = '1.1.0'
 dependencies {
 
@@ -42,7 +40,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swipeRefreshLayoutVersion"
-    // viewmodel
+    // viewmodel and LiveData
     implementation "android.arch.lifecycle:extensions:$lifecycleExtentionVersion"
 
     // swipeRefreshLayout
@@ -51,11 +49,6 @@ dependencies {
     // butterknife
     implementation "com.jakewharton:butterknife:$butterknifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterknifeVersion"
-
-    // retrofit
-    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 
 
 
