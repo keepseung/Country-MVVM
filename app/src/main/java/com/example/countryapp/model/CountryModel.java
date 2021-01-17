@@ -1,7 +1,5 @@
 package com.example.countryapp.model;
 
-import com.google.gson.annotations.SerializedName;
-
 public class CountryModel {
     // 나라 이름을 가짐
     String countryName;

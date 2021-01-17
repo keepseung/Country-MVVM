@@ -16,7 +16,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import okhttp3.internal.Util;
 
 public class CoutryListAdapter extends RecyclerView.Adapter<CoutryListAdapter.CountryViewHolder> {
 

@@ -8,10 +8,6 @@ import com.example.countryapp.model.CountryModel;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import io.reactivex.observers.DisposableSingleObserver;
-import io.reactivex.schedulers.Schedulers;
-
 public class ListViewModel extends ViewModel {
 
     // 사용자에게 보여줄 국가 데이터
