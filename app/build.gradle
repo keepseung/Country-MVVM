@@ -33,6 +33,10 @@ def lifecycleExtentionVersion = '1.1.1'
 def supportVersion = "29.0.0"
 def butterknifeVersion = '10.1.0'
 def swipeRefreshLayoutVersion = '1.1.0'
+
+def retrofitVersion = '2.3.0'
+def glideVersion = '4.9.0'
+def rxJavaVersion ='2.1.1'
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -50,6 +54,14 @@ dependencies {
     implementation "com.jakewharton:butterknife:$butterknifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterknifeVersion"
 
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxJavaVersion"
+
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
 
 
     testImplementation 'junit:junit:4.+'
