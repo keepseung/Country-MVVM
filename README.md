@@ -17,6 +17,8 @@ Jetpack의 다양한 라이브러리를 활용하여 리액티브 하고 확장�
 
 ## Architecture
 이 앱은 MVVM [Model-View-ViewModel] 아키텍처를 사용하여 단방향 데이터 흐름(unidirectional flow), 관심사 분리(separation of concern), 테스트의 용이함(testability) 등을 제공합니다. 저희는 Rocol DB인 Room을 사용하지는 않고 Remote Data Source를 사용할 것입니다.
+![final-architecture](https://user-images.githubusercontent.com/68800994/105040751-915fa400-5aa5-11eb-93ae-8355732bc255.png)
+
 
 ## Blog
 자세한 내용은 블로그 포스팅을 참고해주세요   
