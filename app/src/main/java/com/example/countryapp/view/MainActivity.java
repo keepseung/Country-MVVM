@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
          *  메인 화면에서 관찰할 데이터를 설정한다.
          *  라이브 데이터가 변경됐을 때 변경된 데이터를 가지고 UI를 변경한다.
          */
-        //
+
         viewModel.countries.observe(this, countryModels -> {
 
             // 데이터 값이 변할 때마다 호출된다.

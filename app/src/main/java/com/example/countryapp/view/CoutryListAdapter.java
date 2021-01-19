@@ -16,7 +16,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import okhttp3.internal.Util;
 
 public class CoutryListAdapter extends RecyclerView.Adapter<CoutryListAdapter.CountryViewHolder> {
 
@@ -73,6 +72,8 @@ public class CoutryListAdapter extends RecyclerView.Adapter<CoutryListAdapter.Co
         void bind(CountryModel country){
             countryName.setText(country.getCountryName());
             countryCapital.setText(country.getCapital());
+            Util.loadImage(countryImage, country.getFlag(), Util.getProgressDrawable(countryImage.getContext()));
+
         }
     }
 }
